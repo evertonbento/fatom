@@ -13,8 +13,10 @@ namespace fatomMT
     public partial class Form1 : Form
     {
         public Form1()
+
         {
             InitializeComponent();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,6 +37,21 @@ namespace fatomMT
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+         //  Form1.picture picturebox1.controls.add(label1);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+            label1.Visible = true;
         }
     }
 }
