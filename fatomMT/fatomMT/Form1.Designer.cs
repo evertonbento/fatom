@@ -120,9 +120,9 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox textBox5;
-<<<<<<< HEAD
+// <<<<<<< HEAD
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
->>>>>>> refs/remotes/evertonbento/master
+// >>>>>>> refs/remotes/evertonbento/master
     }
 }
 
