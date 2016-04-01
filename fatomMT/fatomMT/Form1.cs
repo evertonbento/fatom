@@ -15,8 +15,10 @@ namespace fatomMT
     {
 
         public Form1()
+
         {
             InitializeComponent();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,9 +41,25 @@ namespace fatomMT
 
         }
 
+<<<<<<< HEAD
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
 
+=======
+        private void Form1_Load(object sender, EventArgs e)
+        {
+         //  Form1.picture picturebox1.controls.add(label1);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void panel2_Click(object sender, EventArgs e)
+        {
+            label1.Visible = true;
+>>>>>>> refs/remotes/evertonbento/master
         }
     }
 }
